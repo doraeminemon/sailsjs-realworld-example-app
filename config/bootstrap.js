@@ -9,12 +9,16 @@
  * https://sailsjs.com/config/bootstrap
  */
 
-module.exports.bootstrap = function(done) {
+ const seeding = require('./seeding');
+module.exports.bootstrap = async function(done) {
 
   // By convention, this is a good place to set up fake data during development.
 
   // Don't forget to trigger `done()` when this bootstrap function's logic is finished.
   // (otherwise your server will never lift, since it's waiting on the bootstrap)
+
+  await seeding.seed();
+
   return done();
 
 };

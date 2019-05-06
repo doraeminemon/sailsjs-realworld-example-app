@@ -1,0 +1,1 @@
+[![PushTrain build](https://api.kubegrid.com/badge/doraeminemon/sailsjs-realworld-example-app/175.svg)](https://api.github.com/repos/doraeminemon/sailsjs-realworld-example-app) [![Managed by PushTrain](https://api.kubegrid.com/badge-text/managed_by-PushTrain-F17E43.svg)](https://swiftengine.io)
